@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: AnyState
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"out","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.Int32","key":"state","label":null,"summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":0.0,"y":-72.90024},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":105.0,"y":-30.0},"guid":"1ac63ec4-ee28-4ff4-a3c0-c556ca9dad9e","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"11"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"},"name":{"$content":"state","$type":"System.String"}},"position":{"x":-326.0,"y":-34.0},"guid":"af3534e3-7d9d-40d8-a39f-cd1aae396f01","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"13"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"out","guid":"8907a940-b8b9-423d-b255-b0c27476e4d9","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"argument_0","destinationUnit":{"$ref":"11"},"destinationKey":"state","guid":"d6e9111a-5e77-42d3-a26f-49a652ed5d3c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 567858483995134550, guid: a3458ee3a728342fe8a6d8722ab5587a, type: 3}
